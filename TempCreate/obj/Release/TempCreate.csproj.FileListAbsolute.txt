@@ -1,0 +1,9 @@
+F:\代码生成工具\CodeBuilder\TempCreate\bin\Release\TempCreate.dll
+F:\代码生成工具\CodeBuilder\TempCreate\bin\Release\TempCreate.pdb
+F:\代码生成工具\CodeBuilder\TempCreate\bin\Release\CodeHelper.dll
+F:\代码生成工具\CodeBuilder\TempCreate\bin\Release\FileCreate.dll
+F:\代码生成工具\CodeBuilder\TempCreate\bin\Release\CmConfig.dll
+F:\代码生成工具\CodeBuilder\TempCreate\bin\Release\FileCreate.pdb
+F:\代码生成工具\CodeBuilder\TempCreate\obj\Release\TempCreate.csprojResolveAssemblyReference.cache
+F:\代码生成工具\CodeBuilder\TempCreate\obj\Release\TempCreate.dll
+F:\代码生成工具\CodeBuilder\TempCreate\obj\Release\TempCreate.pdb

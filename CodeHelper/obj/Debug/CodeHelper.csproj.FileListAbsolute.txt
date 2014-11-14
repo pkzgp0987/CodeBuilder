@@ -1,0 +1,9 @@
+F:\代码生成工具\CodeBuilder\CodeHelper\bin\Debug\CodeHelper.dll
+F:\代码生成工具\CodeBuilder\CodeHelper\bin\Debug\CodeHelper.pdb
+F:\代码生成工具\CodeBuilder\CodeHelper\bin\Debug\FileCreate.dll
+F:\代码生成工具\CodeBuilder\CodeHelper\bin\Debug\FileCreate.pdb
+F:\代码生成工具\CodeBuilder\CodeHelper\obj\Debug\CodeHelper.csprojResolveAssemblyReference.cache
+F:\代码生成工具\CodeBuilder\CodeHelper\obj\Debug\CodeHelper.dll
+F:\代码生成工具\CodeBuilder\CodeHelper\obj\Debug\CodeHelper.pdb
+F:\代码生成工具\CodeBuilder\CodeHelper\bin\Debug\CmConfig.dll
+F:\代码生成工具\CodeBuilder\CodeHelper\bin\Debug\CmConfig.pdb

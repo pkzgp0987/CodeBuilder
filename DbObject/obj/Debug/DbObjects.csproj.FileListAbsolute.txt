@@ -1,0 +1,13 @@
+F:\代码生成工具\CodeBuilder\DbObject\obj\Debug\DbObjects.csprojResolveAssemblyReference.cache
+F:\代码生成工具\CodeBuilder\DbObject\bin\Debug\DbObjects.dll
+F:\代码生成工具\CodeBuilder\DbObject\bin\Debug\DbObjects.pdb
+F:\代码生成工具\CodeBuilder\DbObject\bin\Debug\CodeHelper.dll
+F:\代码生成工具\CodeBuilder\DbObject\bin\Debug\FileCreate.dll
+F:\代码生成工具\CodeBuilder\DbObject\bin\Debug\MySql.Data.dll
+F:\代码生成工具\CodeBuilder\DbObject\bin\Debug\System.Data.SQLite.DLL
+F:\代码生成工具\CodeBuilder\DbObject\bin\Debug\CmConfig.dll
+F:\代码生成工具\CodeBuilder\DbObject\bin\Debug\CodeHelper.pdb
+F:\代码生成工具\CodeBuilder\DbObject\bin\Debug\FileCreate.pdb
+F:\代码生成工具\CodeBuilder\DbObject\bin\Debug\CmConfig.pdb
+F:\代码生成工具\CodeBuilder\DbObject\obj\Debug\DbObjects.dll
+F:\代码生成工具\CodeBuilder\DbObject\obj\Debug\DbObjects.pdb
