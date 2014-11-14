@@ -1,0 +1,11 @@
+E:\Codematic2源码\CodeHelper\bin\Release\LTP.CodeHelper.dll
+E:\Codematic2源码\CodeHelper\bin\Release\LTP.CmConfig.dll
+E:\Codematic2源码\CodeHelper\bin\Release\LTP.Utility.dll
+E:\Codematic2源码\CodeHelper\obj\Release\ResolveAssemblyReference.cache
+E:\Codematic2源码\CodeHelper\obj\Release\LTP.CodeHelper.dll
+F:\代码生成工具\CodeBuilder\CodeHelper\bin\Release\CodeHelper.dll
+F:\代码生成工具\CodeBuilder\CodeHelper\bin\Release\CmConfig.dll
+F:\代码生成工具\CodeBuilder\CodeHelper\bin\Release\FileCreate.dll
+F:\代码生成工具\CodeBuilder\CodeHelper\bin\Release\FileCreate.pdb
+F:\代码生成工具\CodeBuilder\CodeHelper\obj\Release\CodeHelper.csprojResolveAssemblyReference.cache
+F:\代码生成工具\CodeBuilder\CodeHelper\obj\Release\CodeHelper.dll

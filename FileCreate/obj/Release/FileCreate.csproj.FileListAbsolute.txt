@@ -1,0 +1,5 @@
+F:\代码生成工具\CodeBuilder\FileCreate\bin\Release\FileCreate.dll
+F:\代码生成工具\CodeBuilder\FileCreate\bin\Release\FileCreate.pdb
+F:\代码生成工具\CodeBuilder\FileCreate\obj\Release\FileCreate.csprojResolveAssemblyReference.cache
+F:\代码生成工具\CodeBuilder\FileCreate\obj\Release\FileCreate.dll
+F:\代码生成工具\CodeBuilder\FileCreate\obj\Release\FileCreate.pdb
