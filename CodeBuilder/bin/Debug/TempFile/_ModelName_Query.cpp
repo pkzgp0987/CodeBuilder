@@ -10,6 +10,7 @@ static _ModelName_Query* pQuery=NULL;
 
 _ModelName_Query* _ModelName_Query::GetQuery()
 {
+	//TODO Need Lock
 	if (pQuery==NULL)
 	{
 		pQuery=new _ModelName_Query();
@@ -96,6 +97,15 @@ _ModelName_Query::_ModelName_Query(void)
 {
 }
 
+_ModelName_Query::_ModelName_Query(const _ModelName_Query &)
+{
+	//Not TODO anything
+}
+
+_ModelName_Query::_ModelName_Query & operator = (const _ModelName_Query &)
+{
+	//Not TODO anything
+}
 
 _ModelName_Query::~_ModelName_Query(void)
 {

@@ -12,6 +12,7 @@ static DBConnection* pConnection = NULL;
 
 DBConnection* DBConnection::GetConnection(string sDBFileName)
 {
+	//TODO Need Lock
 	if (pConnection == NULL)
 	{
 		pConnection =  new DBConnection();
@@ -289,4 +290,21 @@ void DBConnection::MoveDBFile(string dbName)
     
 	fclose(in);
 	fclose(out);
+}
+
+DBConnection::DBConnection(void)
+{
+	//Not TODO anything
+}
+DBConnection::DBConnection(const DBConnection &)
+{
+	//Not TODO anything
+}
+DBConnection::DBConnection & operator = (const DBConnection &)
+{
+	//Not TODO anything
+}
+~DBConnection::DBConnection(void)
+{
+	//Not TODO anything
 }

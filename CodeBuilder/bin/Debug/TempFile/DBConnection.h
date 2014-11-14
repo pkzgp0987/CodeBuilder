@@ -32,6 +32,10 @@ public:
     static DBConnection* GetRoleConnection(string sDBFileName=Role_DB_FILE_NAME); //单例模式
 	int GetInsertID();
 private:
+	DBConnection(void);
+	DBConnection(const DBConnection &);
+	DBConnection & operator = (const DBConnection &);
+	~DBConnection(void);
 	sqlite3 *pDB;//数据库指针
 	DBConnection(void);
 	~DBConnection(void);
