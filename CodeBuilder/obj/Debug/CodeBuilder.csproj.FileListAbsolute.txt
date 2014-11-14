@@ -20,3 +20,6 @@ F:\代码生成工具\CodeBuilder\CodeBuilder\bin\Debug\DbObjects.pdb
 F:\代码生成工具\CodeBuilder\CodeBuilder\bin\Debug\FileCreate.pdb
 F:\代码生成工具\CodeBuilder\CodeBuilder\bin\Debug\TempCreate.pdb
 F:\代码生成工具\CodeBuilder\CodeBuilder\bin\Debug\CmConfig.pdb
+F:\代码生成工具\Git\CodeBuilder\CodeBuilder\bin\Debug\CodeBuilder.exe.config
+F:\代码生成工具\Git\CodeBuilder\CodeBuilder\obj\Debug\CodeBuilder.exe
+F:\代码生成工具\Git\CodeBuilder\CodeBuilder\obj\Debug\CodeBuilder.pdb
