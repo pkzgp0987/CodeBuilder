@@ -12,6 +12,7 @@
 #include <sys/sysctl.h>
 #include <net/if.h>
 #include <net/if_dl.h>
+#include  <io.h>
 
 #include "sqlite3.h"
 #include "cocos2d.h"

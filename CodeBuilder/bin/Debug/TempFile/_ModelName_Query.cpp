@@ -64,7 +64,7 @@ _ModelName_ *_ModelName_Query::SelectByID(<#PIDcase[INTEGER,REAL,TEXT]:[int;floa
 
 int _ModelName_SelectArrayCB( void * para, int n_column, char ** column_value, char ** column_name )
 {
-	std::list<#_ModelName_*#> *pArray=(std::list<#_ModelName_*#> *)para;
+	std::list<_ModelName_*> *pArray=(std::list<_ModelName_*> *)para;
 	_ModelName_ *pEntity=new _ModelName_;
 	<#foreach[table0]case[INTEGER,REAL,TEXT]:[sscanf(column_value[_i_],"%d",&pEntity->_columnName_);sscanf(column_value[_i_],"%f",&pEntity->_columnName_);pEntity->_columnName_=string(column_value[_i_])](;nT)#>;
 	pArray->push_back(pEntity);
