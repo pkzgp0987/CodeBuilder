@@ -22,8 +22,8 @@ void _ModelName_Query::Insert(_ModelName_ *pEntity)
     char* str= ( char* )malloc(1024);
     sprintf(str,"insert into _TableName_(<#foreach[table]case[0]:[_columnName_](,)#>) values (<#foreach[table]case[INTEGER,REAL,TEXT]:['%d';'%f';'%s'](,)#>)",<#foreach[table]case[INTEGER,REAL,TEXT]:[pEntity->_columnName_;pEntity->_columnName_;pEntity->_columnName_.c_str()](,)#>);
 	DBConnection::GetConnection()->ExecSQL(str,NULL,NULL);
-	pEntity->ID=DBConnection::GetConnection()->GetInsertID();
 	delete str;
+	pEntity->ID=DBConnection::GetConnection()->GetInsertID();
 }
 
 void InsertWithID(_ModelName_ *pEntity)//插入一行数据
