@@ -75,23 +75,6 @@ void DBConnection::InitDB()
 	//建库
 	if (check!=0)
 	{
-        //解密数据库文件
-        //const char* sTempFileName=DeSqlFile(CCFileUtils::sharedFileUtils()->fullPathForFilename(SQL_FILE_NAME).c_str());
-        //CCString *pStr = CCString::createWithContentsOfFile(sTempFileName);
-        
-        //20130825 EdifierWill
-        //读取TXT建库
-//        ExecSQL("PRAGMA auto_vacuum = 1",NULL,NULL);//开启删除后自动收缩数据文件大小(1为开启,0为关闭)
-//		CCString *pStr = CCString::createWithContentsOfFile(CCFileUtils::sharedFileUtils()->fullPathForFilename(SQL_CREATE_NAME).c_str());
-//        //remove(sTempFileName);
-//		ExecSQL(pStr->getCString(),NULL,NULL);
-//
-//        pStr=CCString::createWithContentsOfFile(CCFileUtils::sharedFileUtils()->fullPathForFilename(SQL_INSERT_NAME).c_str());
-//        ExecSQL(pStr->getCString(),NULL,NULL);
-//        
-//        /*------曾贵平修改14.5.15--------*/
-//        //        delete pStr;
-//        My_SAFE_RELEASE(pStr);
         /*------开启多线程写数据库时delete会报错所以修改---------*/
         //直接复制库文件
         if(strcmp(m_DBFileName.c_str(), LOG_DB_FILE_NAME)==0)
@@ -143,9 +126,6 @@ bool DBConnection::ExecSQL(char * sql_command,int (*callback)(void*,int,char**,c
         const char * dbpath = CCString::create(CCFileUtils::sharedFileUtils()->getWritablePath()+m_DBFileName)->getCString();
 //        const char * dbpath = "/Users/maliao/Documents/LongLand/projects/LongLand/Resources/GameDB.sqlite";
 		int result = sqlite3_open(dbpath, &pDB);
-        //添加密码
-        //result = sqlite3_key(pDB, pConnection->m_sMac, 4);
-        //result = sqlite3_key(pDB, "wllp", 4);
 		if( result != SQLITE_OK ) 
 		{
 			CCLOG( "open db error:%d" , result);
@@ -155,9 +135,6 @@ bool DBConnection::ExecSQL(char * sql_command,int (*callback)(void*,int,char**,c
 	}
 	char * errMsg = NULL;//错误信息
     
-    //解密读取
-    //sqlite3_key(pDB, pConnection->m_sMac, 4);
-    //sqlite3_key(pDB, "wllp", 4);
 	int result=sqlite3_exec( pDB, sql_command , callback, para, &errMsg );
 	if( result != SQLITE_OK ) 
 	{
@@ -183,8 +160,8 @@ const char* DBConnection::DeSqlFile(const char* sFileName)
 {
     int i,count,len;
 	char buff[1024];
-	char* Enkey="HunterLengend4EdifierWill";
-    const char* tmpfile= CCString::create(CCFileUtils::sharedFileUtils()->getWritablePath().append("~u~0_sw~.f~l"))->getCString();//临时文件储存;
+	char* Enkey="";
+    const char* tmpfile= CCString::create(CCFileUtils::sharedFileUtils()->getWritablePath().append(""))->getCString();//临时文件储存;
    
 	FILE * in , * out ;
     
